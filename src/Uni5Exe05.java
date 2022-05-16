@@ -1,12 +1,16 @@
+import java.util.Scanner;
+
 public class Uni5Exe05 {
     public static void main(String[] args) {
-        
-        int termos = 0;
-        for (int i = 2; i < 100; i += 2) {
-            termos = (i + 2);
-            
-            System.out.println(termos);
+        Scanner teclado = new Scanner(System.in);
 
+        System.out.println("Informe a quantidade desejada de números: ");
+        int quantidade = teclado.nextInt();
+
+      
+
+        
+        teclado.close();
         }
     }
-}
+
