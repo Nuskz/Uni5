@@ -8,7 +8,7 @@ public class Uni5Exe15 {
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("Informe o nome do aluno:");
-        String nome = teclado.nextLine();
+        String nome = teclado.next();
 
         while (!nome.trim().equalsIgnoreCase("Fim")) {
             System.out.println("Informe a 1° nota:");
@@ -19,6 +19,8 @@ public class Uni5Exe15 {
             float media = (nota1 + nota2) / 2;
             System.out.println("A média é: " + media);
 
+            System.out.println("Digite o nome do aluno: ");
+            nome = teclado.next();
         }
 
         teclado.close();
