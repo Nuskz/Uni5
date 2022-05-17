@@ -1,8 +1,8 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Uni5Exe13 {
     public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
+       /* Scanner teclado = new Scanner(System.in);
 
         System.out.println("Digite o número total de reabastecimentos: ");
         int nRbastecimento = teclado.nextInt();
@@ -26,6 +26,6 @@ public class Uni5Exe13 {
                 odometro -=
             }
         }
-        teclado.close();
+        teclado.close();*/
     }
 }

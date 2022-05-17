@@ -7,14 +7,14 @@ public class Uni5Exe04 {
         auxiliar = 4;
 
         for(int contador = 1; contador <= 20; contador++) {
-            System.out.println(numerador + "/" + denominador);
-
+            
             soma += (numerador / denominador);
+            System.out.println(numerador + " / " + denominador + " = " + soma);
             
             numerador += 2;
             denominador += auxiliar;
             auxiliar += 2;
         }
-        System.out.println("Soma" + soma);
+        System.out.println("Soma " + soma);
     }
 }
