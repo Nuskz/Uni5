@@ -6,7 +6,7 @@
 Escreva um programa que pesquise e imprima os 10 primeiros números naturais que apresentam tal propriedade. Outros exemplos:
 20 + 25 = 45 -> 45^2 = 2025
 98 + 01 = 99 -> 99^2 = 9801
-*/
+COMPLETO!!!!!!!!!!!!!!*/
 public class Uni5Exe10 {
     public static void main(String[] args) {
         int soma = 0;
