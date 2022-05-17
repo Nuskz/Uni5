@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//COMPLETOOO!!!!!!!!!
 public class Uni5Exe06 {
     public static void main(String[] args) {
 
