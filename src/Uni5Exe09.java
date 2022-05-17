@@ -6,11 +6,8 @@ public class Uni5Exe09 {
      * algoritmo que:
      * escreva os nomes dos alunos que tem 18 anos;
      * escreva a quantidade de alunos que tem idade acima de 20 anos.
-<<<<<<< HEAD
+
      * COMPLETOO!!!!!!!!!!!!!!!!
-=======
-     *COMPLETOOOO!!!!!!!!
->>>>>>> 1de8348d01c6ef8f2aeeb710c4af5347bad37119
      */
      
      public static void main(String[] args) {
