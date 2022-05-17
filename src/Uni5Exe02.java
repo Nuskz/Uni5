@@ -1,4 +1,4 @@
-
+//*COMPLETOOOO!!!!!!!!
 public class Uni5Exe02 {
     public static void main(String[] args) {
         int somaPares = 0;

@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Uni5Exe07 {
     /*Descreva um algoritmo que leia um número inteiro n e, 
-    dados n números reais informe o maior e o menor número.*/
+    dados n números reais informe o maior e o menor número.
+    //COMPLETOOO!!!!!!!!!*/
     public static void main(String[] args) {
         
         Scanner teclado = new Scanner(System.in);
