@@ -2,7 +2,8 @@ import java.util.Scanner;
 /*Descreva um algoritmo que escreva os N primeiros termos da seguinte
  sequência de números:
     8,10,16,32,34,64...
-    O valor n deve ser lido e deve ser maior do que 2.*/
+    O valor n deve ser lido e deve ser maior do que 2.
+    //*COMPLETOOOO!!!!!!!!*/
 
 public class Uni5Exe05 {
     public static void main(String[] args) {
