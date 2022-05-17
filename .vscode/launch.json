@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch app",
+            "request": "launch",
+            "mainClass": "app",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe01",
+            "request": "launch",
+            "mainClass": "Uni5Exe01",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe02",
+            "request": "launch",
+            "mainClass": "Uni5Exe02",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe03",
+            "request": "launch",
+            "mainClass": "Uni5Exe03",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe04",
+            "request": "launch",
+            "mainClass": "Uni5Exe04",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe05",
+            "request": "launch",
+            "mainClass": "Uni5Exe05",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe06",
+            "request": "launch",
+            "mainClass": "Uni5Exe06",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe07",
+            "request": "launch",
+            "mainClass": "Uni5Exe07",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe08",
+            "request": "launch",
+            "mainClass": "Uni5Exe08",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe09",
+            "request": "launch",
+            "mainClass": "Uni5Exe09",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe10",
+            "request": "launch",
+            "mainClass": "Uni5Exe10",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe11",
+            "request": "launch",
+            "mainClass": "Uni5Exe11",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe12",
+            "request": "launch",
+            "mainClass": "Uni5Exe12",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe13",
+            "request": "launch",
+            "mainClass": "Uni5Exe13",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe15",
+            "request": "launch",
+            "mainClass": "Uni5Exe15",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe18",
+            "request": "launch",
+            "mainClass": "Uni5Exe18",
+            "projectName": "Uni5_24516045"
+        }
+    ]
+}
