@@ -7,6 +7,9 @@ public class Uni5Exe08 {
      * 
      * escreva o menor valor negativo;
      * escreva a média dos números positivos.
+     * 
+     * 
+     * CONCLUIDO!!!!!!
      */
     public static void main(String[] args) {
 
