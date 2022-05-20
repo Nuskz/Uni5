@@ -8,17 +8,16 @@ Faça programa que determine o salário atual do funcionário.
  */
 public class Uni5Exe22 {
     public static void main(String[] args) {
-        
+
         double salario = 2000;
-        double porcentagem = 0;
-        
-        
-        for (int i = 1997; i <= 2022; i++) {
-            porcentagem += 2 * 0.015;
-          
-        }
+        double porcetagem = 0;
+
         DecimalFormat deci = new DecimalFormat("0.00");
-        salario = salario * (porcentagem); 
-        System.out.println("Salário atual:\nR$ " + deci.format(salario));
+
+        for (int i = 1997; i <= 2022; i++) {
+            porcetagem += 2 * 0.015;
+        }
+        salario = salario * (porcetagem + 1);
+        System.out.println("Salário atual do funcionário: R$" + deci.format(salario));
     }
 }
