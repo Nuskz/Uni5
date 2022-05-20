@@ -10,31 +10,33 @@ Os regulamentos de uma competição de pesca impõem um limite no peso total de 
 */
 public class Uni5Exe24 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        char registro = 'S';
-        double pesoTotal = 0;
+        try (Scanner input = new Scanner(System.in)) {
+            char registro = 'S';
+            double pesoTotal = 0;
 
-        System.out.print("Limite diário de peso em quilos: ");
-        double pesoMaximo = input.nextDouble();
+            System.out.print("Limite diário de peso em quilos:\nKg ");
+            double pesoMaximo = input.nextDouble();
 
-        while (registro == 'S') {
+            while (registro == 'S') {
 
-            System.out.print("Peso do peixe: ");
-            double peso = input.nextDouble();
+                System.out.print("Peso do peixe:\nKg ");
+                double peso = input.nextDouble();
 
-            pesoTotal += peso;
+                pesoTotal += peso;
 
-            if (pesoTotal > pesoMaximo) {
-                System.out.print("Peso máximo excedido.");
-                return;
-            } else {
-                System.out.println("Peso total da pesca obtido: " + pesoTotal + " Kg");
-                System.out.println("deseja informar o peso de mais um peixe: s (SIM) / n (NÃO)?");
-                registro = input.next().toUpperCase().charAt(0);
+                if (pesoTotal > pesoMaximo) {
+                    System.out.print("Peso máximo excedido.");
+                    return;
+                } else {
+                    System.out.println("Peso total da pesca obtido: " + pesoTotal + " Kg");
+                    System.out.println("deseja informar o peso de mais um peixe: s (SIM) / n (NÃO)?");
+                    registro = input.next().toUpperCase().charAt(0);
+                }
+            
             }
-        }
 
-        input.close();
+            input.close();
+        }
 
     }
 }
