@@ -6,7 +6,8 @@ import java.util.Scanner;
 o número de inscrição e a altura do atleta mais alto;
 o número de inscrição e a altura do atleta mais baixo;
 a altura média do grupo de atletas.
-A leitura deve ser finalizada ao digitar 0 para o número de inscrição.*/
+A leitura deve ser finalizada ao digitar 0 para o número de inscrição.
+CONCLUIDOOOO!!!!!*/
 public class Uni5Exe17 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
