@@ -12,30 +12,35 @@ a quilometragem média obtida por litro de combustível em toda a viagem.*/
 
 public class Uni5Exe13 {
     public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Digite o número total de reabastecimentos: ");
-        int nRbastecimento = teclado.nextInt();
+        int nRbastecimento = input.nextInt();
 
         System.out.println("Digite o valor do odômetro com o tanque cheio: ");
-        int kmInicial = teclado.nextInt();
+        int kmInicial = input.nextInt();
 
         int kmDiferenca = 0;
+        float soma = 0;
         for (int quantidadeAbastecimentos = 0; quantidadeAbastecimentos < nRbastecimento; quantidadeAbastecimentos++) {
-
-
             System.out.print("Digite o valor do odômetro atual: ");
-            int odometro = teclado.nextInt();
+            int odometro = input.nextInt();
             System.out.println("Digite a quantidade em L de combustível: ");
-            float quantidadeCombustivel = teclado.nextFloat();
+            float quantidadeCombustivel = input.nextFloat();
 
-            if (quantidadeAbastecimentos == 0) {
-                kmDiferenca = kmInicial - odometro;
-                kmInicial = odometro;
-            } else {
-                
-            }
+            kmDiferenca = odometro - kmInicial;
+            kmInicial = odometro;
+
+            float kmPorLitro = (kmDiferenca / quantidadeCombustivel);
+            System.out.println("A quilometragem por litro de combustível na parada " +
+                    quantidadeAbastecimentos + "  é " + kmPorLitro + " Km");
+
+            soma += kmPorLitro;
+
         }
-        teclado.close();
+        System.out.println("A quilometragem média obtida por litro de combustível em toda a viagem é " + 
+            (soma / nRbastecimento) + " Km" );
+        
+            input.close();
     }
 }

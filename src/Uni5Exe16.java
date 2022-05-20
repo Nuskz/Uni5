@@ -3,7 +3,8 @@ import java.util.Scanner;
 /*Dado um determinado grupo de pessoas, 
 descreva um algoritmo que a partir da altura e do sexo (sexo = 'M' ou sexo = 'm' para masculino e sexo = 'F' e sexo = 'f' para feminino) de cada pessoa 
 informe a média da altura das mulheres e a média de altura do grupo. 
-A leitura deve ser finalizada ao digitar 0 para a altura.*/
+A leitura deve ser finalizada ao digitar 0 para a altura.
+COMPLETOOOO*/
 public class Uni5Exe16 {
     public static void main(String[] args) {
 
