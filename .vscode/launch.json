@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Uni5Exe26",
+            "request": "launch",
+            "mainClass": "Uni5Exe26",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe25",
+            "request": "launch",
+            "mainClass": "Uni5Exe25",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
             "name": "Launch Uni5Exe24",
             "request": "launch",
             "mainClass": "Uni5Exe24",
