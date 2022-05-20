@@ -8,7 +8,7 @@ import java.util.Scanner;
 11 12 13 14 15
 16 17 18 19 20 21
 Triangulo de Floyd
-*/
+COMPLETO*/
 public class Uni5Exe12 {
     public static void main(String[] args) {
         
