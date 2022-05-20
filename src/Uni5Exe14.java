@@ -28,10 +28,10 @@ public class Uni5Exe14 {
             
             lucro = (pv - pc) / pc * 100;
 
-            if (lucro < 10) {
+            if (lucro < 0.1) {
                 System.out.println("A mercadoria " + nome + " tem um lucro abaixo de 10%");
 
-            } else if (lucro >= 10 && lucro <= 20 ){
+            } else if (lucro >= 0.1 && lucro <= 0.2 ){
                 
             }
             
