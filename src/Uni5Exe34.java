@@ -16,7 +16,7 @@ Caso a opção escolhida seja a primeira, leia o nome e o número de diárias do
 Caso a opção escolhida seja a segunda, informe o número de hóspedes que deixaram o hotel (número de contas encerradas). 
 Caso a opção escolhida seja a terceira finalize a execução do algoritmo.
  */
-public class Uni5Exe34ter {
+public class Uni5Exe34 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         DecimalFormat deci = new DecimalFormat("0.00");
@@ -40,7 +40,7 @@ public class Uni5Exe34ter {
                     System.out.print("Informe o nome do(a) hóspede: ");
                     nome = input.next();
 
-                    System.out.print("\nInforme quantos dias ele passou: ");
+                    System.out.print("\nInforme quantos dias ele(a) passou: ");
                     diarias = input.nextInt();
 
                     if (diarias < 15) {
