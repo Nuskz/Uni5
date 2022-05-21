@@ -6,7 +6,7 @@ Os regulamentos de uma competição de pesca impõem um limite no peso total de 
  Quando o limite diário for excedido escreva uma mensagem e encerre a execução do algoritmo. 
     Para prosseguir com a entrada de dados de pesos de cada peixe o algoritmo deve apresentar a seguinte mensagem: 
     “deseja informar o peso de mais um peixe: s (SIM) / n (NÃO)?”.
-
+CONCLUIDA!!!
 */
 public class Uni5Exe24 {
     public static void main(String[] args) {

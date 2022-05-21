@@ -29,6 +29,8 @@ Saída para o exemplo de entrada:
 3 (trechos com valor acima do qual ele nega-se a pagar);
 6 (quantidade de trechos informados);
 2 (trechos acima de 150km com valor aceito por ele).
+
+CONCLUIDAAAA
 */
 public class Uni5Exe26 {
     public static void main(String[] args) {

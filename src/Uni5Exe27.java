@@ -20,6 +20,8 @@ Considere que a produção em cada turno nunca será a mesma (não é necessári
 
 qual dia ocorreu a maior produção;
 em qual período o funcionário mais produz (manhã ou tarde e a quantidade produzida).
+
+CONCLUIDA!!!!
 */
 public class Uni5Exe27 {
     public static void main(String[] args) {

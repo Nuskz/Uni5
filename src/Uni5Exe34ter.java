@@ -1,3 +1,5 @@
-public class Uni5Exe34 {
-    
+public class Uni5Exe34ter {
+    public static void main(String[] args) {
+        
+    }
 }

@@ -9,6 +9,7 @@ O departamento de pessoal deseja obter um relatório com: nome, total de vendas 
     Descreva um algoritmo que gere o relatório desejado. Para prosseguir com a entrada de dados o algoritmo deve apresentar a seguinte mensagem: 
 “deseja digitar os dados de mais um vendedor: s (SIM) / n (NÃO)?”. 
 O número de produtos (n) de cada vendedor deve ser informado. 
+CONCLUIDA!!!
 */
 public class Uni5Exe23 {
     public static void main(String[] args) {

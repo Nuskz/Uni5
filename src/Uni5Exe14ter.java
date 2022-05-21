@@ -6,7 +6,7 @@ Para cada mercadoria ele tem o nome, o preço de compra (PC) e o preço de venda
 escreva quantas mercadorias proporcionam: (lucro < 10%), (10% <= lucro <= 20%) e (lucro > 20%), 
 onde o percentual de lucro é calculado da seguinte forma: % = (PV - PC) / PC * 100;
 determine e escreva o valor total de compra e de venda de todas as mercadorias, assim como o lucro total.*/
-public class Uni5Exe14 {
+public class Uni5Exe14ter {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 

@@ -6,7 +6,7 @@ tempo necessário para que essa massa se torne menor que 0,5 gramas.
 
 Escreva a massa inicial, a massa final e o tempo.
 */
-public class Uni5Exe20 {
+public class Uni5Exe20ter {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

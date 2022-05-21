@@ -6,7 +6,9 @@ import java.util.Scanner;
 
 um dos jogadores chegar a 21 pontos e a diferença de pontos entre os jogadores for maior ou igual a dois;
 o jogador com mais de 21 pontos conseguir uma diferença de dois pontos sobre o adversário, caso a primeira condição não seja atendida.
- */
+ 
+CONCLUIDA!!!!
+*/
 public class Uni5Exe25 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

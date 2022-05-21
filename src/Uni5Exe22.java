@@ -5,6 +5,7 @@ import java.text.DecimalFormat;
 A partir de 1997, os aumentos sempre correspondem ao dobro do ano anterior. 
 
 Faça programa que determine o salário atual do funcionário.
+ CONCLUIDA
  */
 public class Uni5Exe22 {
     public static void main(String[] args) {

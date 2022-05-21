@@ -10,7 +10,7 @@ Calcule e escreva:
 a quilometragem obtida por litro de combustível em cada parada;
 a quilometragem média obtida por litro de combustível em toda a viagem.*/
 
-public class Uni5Exe13 {
+public class Uni5Exe13ter {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

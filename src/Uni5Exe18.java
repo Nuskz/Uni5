@@ -9,7 +9,8 @@ Em casas onde a televisão estava desligada, foi registrado zero para o número 
 Baseado nisto descreva um algoritmo que calcule e escreva,
  para cada emissora, o percentual de audiência. 
  A leitura deve ser finalizada quando for informado canal 0.
- CONCLUIDA*/
+ CONCLUIDA
+ */
 
 public class Uni5Exe18 {
     public static void main(String[] args) {
