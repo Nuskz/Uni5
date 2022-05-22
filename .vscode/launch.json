@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Uni5Exe32ter",
+            "request": "launch",
+            "mainClass": "Uni5Exe32ter",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe31ter",
+            "request": "launch",
+            "mainClass": "Uni5Exe31ter",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
+            "name": "Launch Uni5Exe30ter",
+            "request": "launch",
+            "mainClass": "Uni5Exe30ter",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
             "name": "Launch Uni5Exe20ter",
             "request": "launch",
             "mainClass": "Uni5Exe20ter",
