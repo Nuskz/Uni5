@@ -22,7 +22,7 @@ public class Uni5Exe13ter {
 
         int kmDiferenca = 0;
         float soma = 0;
-        for (int quantidadeAbastecimentos = 0; quantidadeAbastecimentos < nRbastecimento; quantidadeAbastecimentos++) {
+        for (int i = 1; i <= nRbastecimento; i++) {
             System.out.print("Digite o valor do odômetro atual: ");
             int odometro = input.nextInt();
             System.out.println("Digite a quantidade em L de combustível: ");
@@ -33,7 +33,7 @@ public class Uni5Exe13ter {
 
             float kmPorLitro = (kmDiferenca / quantidadeCombustivel);
             System.out.println("A quilometragem por litro de combustível na parada " +
-                    quantidadeAbastecimentos + "  é " + kmPorLitro + " Km");
+                    i + "  é " + kmPorLitro + " Km");
 
             soma += kmPorLitro;
 
