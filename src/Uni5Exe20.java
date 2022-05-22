@@ -16,18 +16,22 @@ public class Uni5Exe20ter {
 
         double massaInicial = massa;
         double tempo = 0;
+        double massaGramas = massa * 1000;
 
-        while (massa >= 0.0005) {
+        while (massaGramas > 0.5) {
             for (int i = 1; i <= 50; i++) {
-                if (i == 50 || massa > 0.0005) {
-                    massa = (massa / 2);
+                if (i == 50 && massaGramas > 0.5) {
+                    massaGramas -= massaGramas / 2;
                     tempo += i;
                 }
             }
+            if (massaGramas < 0.5) {
+                System.out.println("Massa inicial: " + massaInicial + " Kg" +
+                        "\nMassa Final: " + massaGramas + " Kg" + "\nTempo: " + tempo + " segundos");
+
+            }
         }
-        System.out.println("Massa inicial: " + massaInicial + " Kg" +
-                "\nMassa Final: " + massa + " Kg" + "\nTempo: " + tempo + " segundos");
-        
+
         input.close();
     }
 }

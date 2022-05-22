@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Uni5Exe20ter",
+            "request": "launch",
+            "mainClass": "Uni5Exe20ter",
+            "projectName": "Uni5_24516045"
+        },
+        {
+            "type": "java",
             "name": "Launch Uni5Exe13ter",
             "request": "launch",
             "mainClass": "Uni5Exe13ter",
